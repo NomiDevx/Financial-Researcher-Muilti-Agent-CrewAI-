@@ -1,0 +1,15 @@
+financial_research_task:
+  description: >
+    Use the search tools to analyze the current financial market, latest news, and fundamental data to find the 5 best stocks to invest in right now. Consider current market trends and potential for high returns.
+  expected_output: >
+    A detailed list of the 5 top stock picks, including the ticker symbol, current context, and the fundamental reasons why they are strong investments.
+  agent: financial_researcher
+
+reporting_task:
+  description: >
+    Review the stock picks provided by the researcher and expand them into a full, professional report to show to the team. 
+    Ensure it is highly readable and synthesizes all relevant market information.
+  expected_output: >
+    A fully fledged, comprehensive markdown report detailing the top stock picks, clear investment theses for each, and a summary of current market conditions. Formatted as markdown without '```'.
+  
+  agent: reporting_analyst
