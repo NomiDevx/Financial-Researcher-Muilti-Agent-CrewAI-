@@ -1,6 +1,90 @@
-# FinancialResearcher Crew
+# FinancialResearcher CrewAI Financial Market Analysis System
 
-Welcome to the FinancialResearcher Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+This project implements a multi-agent AI workflow designed to analyze financial markets and generate professional investment reports. It leverages specialized AI agents to simulate real-world financial research and reporting processes.
+
+🚀 Overview
+
+The system consists of two collaborative AI agents:
+
+Financial Researcher
+Financial Reporting Analyst
+
+Together, they:
+
+Analyze current market trends
+Identify high-potential stocks
+Generate structured investment reports
+🧠 Agents
+🔍 Financial Researcher
+
+Role: Financial Researcher
+Model: deepseek/deepseek-chat
+
+Responsibilities:
+
+Analyze current financial markets using available data
+Research latest news, trends, and stock fundamentals
+Identify top-performing and high-growth stocks
+Focus on uncovering undervalued or high-potential opportunities
+
+Expertise:
+
+10+ years of market experience
+Strong in trend analysis and stock evaluation
+Data-driven decision making
+📝 Financial Reporting Analyst
+
+Role: Financial Reporting Analyst
+Model: deepseek/deepseek-chat
+
+Responsibilities:
+
+Convert raw research into structured reports
+Present findings in a clear, professional format
+Ensure readability and actionable insights
+Summarize key investment opportunities
+
+Expertise:
+
+Financial reporting and documentation
+Data synthesis and presentation
+Business-level communication
+📌 Tasks
+📈 Financial Research Task
+
+Objective:
+Identify the top 5 stocks to invest in right now based on:
+
+Market trends
+Recent news
+Fundamental analysis
+Growth potential
+
+Output:
+
+Stock name & ticker
+Market context
+Investment rationale
+📊 Reporting Task
+
+Objective:
+Transform research findings into a comprehensive investment report.
+
+Output:
+
+Clean markdown report
+Investment thesis for each stock
+Summary of current market conditions
+Easy-to-read structured format
+⚙️ Workflow
+Financial Researcher gathers and analyzes market data
+Selects top 5 stock opportunities
+Reporting Analyst processes findings
+Generates a polished investment report
+🧩 Tech Stack
+LLM: DeepSeek Chat (deepseek/deepseek-chat)
+Framework: CrewAI (or similar multi-agent orchestration)
+Language: Python
 
 ## Installation
 
